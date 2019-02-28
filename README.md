@@ -925,6 +925,7 @@ A cell
         * [.value(value)](#Cell+value) ⇒ [<code>Cell</code>](#Cell)
         * [.value()](#Cell+value) ⇒ [<code>Range</code>](#Range)
         * [.workbook()](#Cell+workbook) ⇒ [<code>Workbook</code>](#Workbook)
+        * [.addPageBreak()](#Cell+addPageBreak) ⇒ [<code>Cell</code>](#Cell)
     * _inner_
         * [~tapCallback](#Cell..tapCallback) ⇒ <code>undefined</code>
         * [~thruCallback](#Cell..thruCallback) ⇒ <code>\*</code>
@@ -1260,6 +1261,13 @@ Gets the parent workbook.
 
 **Kind**: instance method of [<code>Cell</code>](#Cell)  
 **Returns**: [<code>Workbook</code>](#Workbook) - The parent workbook.  
+<a name="Cell+addPageBreak"></a>
+
+#### cell.addPageBreak() ⇒ [<code>Cell</code>](#Cell)
+Append Horizontal-Pagebreak after the cell.
+
+**Kind**: instance method of [<code>Cell</code>](#Cell)  
+**Returns**: [<code>Cell</code>](#Cell) - the cell.  
 <a name="Cell..tapCallback"></a>
 
 #### Cell~tapCallback ⇒ <code>undefined</code>
@@ -1306,6 +1314,7 @@ A column.
     * [.width()](#Column+width) ⇒ <code>undefined</code> \| <code>number</code>
     * [.width(width)](#Column+width) ⇒ [<code>Column</code>](#Column)
     * [.workbook()](#Column+workbook) ⇒ [<code>Workbook</code>](#Workbook)
+    * [.addPageBreak()](#Column+addPageBreak) ⇒ [<code>Column</code>](#Column)
 
 <a name="Column+address"></a>
 
@@ -1460,6 +1469,13 @@ Get the parent workbook.
 
 **Kind**: instance method of [<code>Column</code>](#Column)  
 **Returns**: [<code>Workbook</code>](#Workbook) - The parent workbook.  
+<a name="Column+addPageBreak"></a>
+
+#### column.addPageBreak() ⇒ [<code>Column</code>](#Column)
+Append Vertical-Pagebreak after the column.
+
+**Kind**: instance method of [<code>Column</code>](#Column)  
+**Returns**: [<code>Column</code>](#Column) - the column.  
 <a name="FormulaError"></a>
 
 ### FormulaError
@@ -1993,6 +2009,7 @@ A row.
     * [.style(styles)](#Row+style) ⇒ [<code>Cell</code>](#Cell)
     * [.style(style)](#Row+style) ⇒ [<code>Cell</code>](#Cell)
     * [.workbook()](#Row+workbook) ⇒ [<code>Workbook</code>](#Workbook)
+    * [.addPageBreak()](#Row+addPageBreak) ⇒ [<code>Row</code>](#Row)
 
 <a name="Row+address"></a>
 
@@ -2140,6 +2157,13 @@ Get the parent workbook.
 
 **Kind**: instance method of [<code>Row</code>](#Row)  
 **Returns**: [<code>Workbook</code>](#Workbook) - The parent workbook.  
+<a name="Row+addPageBreak"></a>
+
+#### row.addPageBreak() ⇒ [<code>Row</code>](#Row)
+Append Horizontal-Pagebreak after the row.
+
+**Kind**: instance method of [<code>Row</code>](#Row)  
+**Returns**: [<code>Row</code>](#Row) - the row.  
 <a name="Sheet"></a>
 
 ### Sheet
